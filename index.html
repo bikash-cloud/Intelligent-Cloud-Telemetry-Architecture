@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Intelligent Cloud Telemetry Architecture</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6c5d0f9f2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+
+        <div class="logo">
+            Intelligent Cloud Telemetry
+        </div>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#features">Features</a></li>
+
+            <li><a href="#workflow">Workflow</a></li>
+
+            <li><a href="#dashboard">Dashboard</a></li>
+
+            <li><a href="#technology">Technology</a></li>
+
+            <li><a href="#github">GitHub</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-left">
+
+            <h1>
+
+                Intelligent Cloud
+                <span>Telemetry Architecture</span>
+
+            </h1>
+
+            <p>
+
+                An advanced ESP32-based cloud telemetry architecture that
+                performs intelligent event-driven communication using
+                Blynk IoT Cloud. Instead of continuously transmitting data,
+                the system sends updates only during battery state changes,
+                voltage threshold violations, anomalies and fault conditions,
+                reducing network traffic while ensuring reliable monitoring.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a class="btn-primary"
+                    href="https://wokwi.com/projects/468426032458565633"
+                    target="_blank">
+
+                    View Wokwi
+
+                </a>
+
+                <a class="btn-secondary"
+                    href="https://github.com/bikash-cloud/Intelligent-Cloud-Telemetry-Architecture"
+                    target="_blank">
+
+                    GitHub
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <img src="Images/dashboard.png"
+                alt="Dashboard">
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+
+    <section id="features">
+
+        <h2>Key Features</h2>
+
+        <div class="feature-grid">
+
+            <div class="card">
+
+                <i class="fas fa-cloud"></i>
+
+                <h3>Cloud Telemetry</h3>
+
+                <p>
+
+                    Smart event-driven cloud communication
+                    through the Blynk IoT platform.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-wifi"></i>
+
+                <h3>WiFi Recovery</h3>
+
+                <p>
+
+                    Automatic WiFi reconnect with
+                    seamless cloud synchronization.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-battery-half"></i>
+
+                <h3>Battery Monitoring</h3>
+
+                <p>
+
+                    Real-time monitoring of
+                    four battery cell voltages.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-exclamation-triangle"></i>
+
+                <h3>Fault Detection</h3>
+
+                <p>
+
+                    Detects threshold violations,
+                    imbalance and abnormal conditions.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-history"></i>
+
+                <h3>Event Queue</h3>
+
+                <p>
+
+                    Offline events are stored
+                    and synchronized after reconnection.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-signal"></i>
+
+                <h3>RSSI Monitoring</h3>
+
+                <p>
+
+                    Continuously measures
+                    wireless signal quality.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= WORKFLOW ================= -->
+
+    <section id="workflow">
+
+        <h2>Telemetry Workflow</h2>
+
+        <div class="workflow">
+
+            <div class="step">
+
+                <span>1</span>
+
+                Read Battery Cells
+
+            </div>
+
+            <div class="step">
+
+                <span>2</span>
+
+                Analyze Voltage & Faults
+
+            </div>
+
+            <div class="step">
+
+                <span>3</span>
+
+                Generate Event
+
+            </div>
+
+            <div class="step">
+
+                <span>4</span>
+
+                Queue if Offline
+
+            </div>
+
+            <div class="step">
+
+                <span>5</span>
+
+                Sync to Blynk Cloud
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= DASHBOARD ================= -->
+
+    <section id="dashboard">
+
+        <h2>Blynk Dashboard</h2>
+
+        <img class="dashboard-image"
+            src="Images/dashboard.png"
+            alt="Dashboard">
+
+    </section>
+
+    <!-- ================= TECHNOLOGY ================= -->
+
+    <section id="technology">
+
+        <h2>Technology Stack</h2>
+
+        <div class="tech-grid">
+
+            <div>ESP32</div>
+
+            <div>Arduino</div>
+
+            <div>Blynk IoT</div>
+
+            <div>WiFi</div>
+
+            <div>I2C LCD</div>
+
+            <div>Embedded C++</div>
+
+            <div>Event Queue</div>
+
+            <div>Cloud Telemetry</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= GITHUB ================= -->
+
+    <section id="github">
+
+        <h2>Project Links</h2>
+
+        <div class="links">
+
+            <a href="https://github.com/bikash-cloud/Intelligent-Cloud-Telemetry-Architecture"
+                target="_blank">
+
+                GitHub Repository
+
+            </a>
+
+            <a href="https://wokwi.com/projects/468426032458565633"
+                target="_blank">
+
+                Wokwi Simulation
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h3>
+
+            Intelligent Cloud Telemetry Architecture
+
+        </h3>
+
+        <p>
+
+            Designed & Developed by
+            <strong>Bikash Kumar Swain</strong>
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
